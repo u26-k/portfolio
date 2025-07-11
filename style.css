@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top right, #1b1b2f, #0f0f1c);
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  background: linear-gradient(90deg, #7f5af0, #00c1ff);
+  color: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.about-text h3 {
+  margin-top: 30px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.contact-info a {
+  color: #7f5af0;
+  text-decoration: none;
+}
+
+.about-photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 3px solid #7f5af0;
+}
+
+.details {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.box h4 {
+  margin-bottom: 12px;
+  color: #7f5af0;
+}
+
+.skills i {
+  font-size: 36px;
+  margin: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 6px 0;
+}
+
+@media(max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-photo img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+       
